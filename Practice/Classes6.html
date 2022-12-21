@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Use of The class Attribute in JavaScript</h2>
+         <button onclick="myFunctoin()">Hide Elements</button>
+         <h2 class="city">London</h2>
+
+         <h2 class="city">Dhaka</h2>
+
+         <script>
+            function myFunctoin() {
+                var x =
+                document.getElementsByClassName("city");
+                for (var i=0; i < x.length; i++){
+                x[i].style.display ="none";
+            }
+            }
+         </script>
+    </body>
+</html>
