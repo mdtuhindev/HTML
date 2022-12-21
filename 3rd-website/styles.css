@@ -145,3 +145,17 @@
     background-color: #ff7200;
     border-radius: 10px;
 }
+
+.color{
+    color: orange;
+}
+
+.left-content p{
+    margin: 15px;
+}
+
+.cn:hover{
+    background-color: #000000;
+    transition: all 1s ease;
+    cursor: pointer;
+}
