@@ -159,3 +159,7 @@
     transition: all 1s ease;
     cursor: pointer;
 }
+
+.icon{
+    color: #fff;
+}
